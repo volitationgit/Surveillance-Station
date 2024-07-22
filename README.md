@@ -15,11 +15,7 @@
 ### Block license check
 - Open Synology's hosts file
 ```
-vi /etc/hosts
-```
-- add this line to hosts
-```
-0.0.0.0 synosurveillance.synology.com
+echo "0.0.0.0 synosurveillance.synology.com" | sudo tee -a /etc/hosts
 ```
 ---
 ### A. x86_64 (9.2.0-11289)
