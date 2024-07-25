@@ -11,12 +11,7 @@
 - Click and run task.
 - Delete this task when you see there are 58 licenses.
 
----
-### Block license check
-- Open Synology's hosts file
-```
-echo "0.0.0.0 synosurveillance.synology.com" | sudo tee -a /etc/hosts
-```
+
 ---
 ### A. x86_64 (9.2.0-11289)
 - Link download: https://global.synologydownload.com/download/Package/spk/SurveillanceStation/9.2.0-11289/SurveillanceStation-x86_64-9.2.0-11289.spk
