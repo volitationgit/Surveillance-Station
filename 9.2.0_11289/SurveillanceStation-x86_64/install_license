@@ -1,6 +1,15 @@
 #!/bin/sh
 #curl -o /tmp/install_license https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/SurveillanceStation-x86_64/install_license; sh /tmp/install_license
 
+# block check license server
+if grep -q "synosurveillance.synology.com" /etc/hosts; then
+  echo "already blocked license server: synosurveillance.synology.com."
+else
+  echo "add block license server: synosurveillance.synology.com"
+  echo "0.0.0.0 synosurveillance.synology.com" | sudo tee -a /etc/hosts
+fi
+
+
 /usr/syno/bin/synopkg stop SurveillanceStation
 sleep 5
 cd /var/packages/SurveillanceStation/target/lib/
