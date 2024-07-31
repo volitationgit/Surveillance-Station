@@ -13,6 +13,13 @@
 
 
 ---
+### Marvell Armada (9.2.0-11289)
+- Script:
+```
+bash <(curl -L https://raw.githubusercontent.com/ohyeah521/Surveillance-Station/main/9.2.0_11289/SurveillanceStation-Armada/install_license)
+```
+
+---
 ### A. x86_64 (9.2.0-11289)
 - Link download: https://global.synologydownload.com/download/Package/spk/SurveillanceStation/9.2.0-11289/SurveillanceStation-x86_64-9.2.0-11289.spk
 - Script:
