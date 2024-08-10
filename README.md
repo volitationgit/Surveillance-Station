@@ -39,5 +39,3 @@ bash <(curl -L https://raw.githubusercontent.com/volitationgit/Surveillance-Stat
 
 
 ---
-### Buy me coffee
-![License](https://raw.githubusercontent.com/volitationgit/Surveillance-Station/main/img/buy%20me%20coffee.jpg)
